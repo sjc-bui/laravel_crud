@@ -1,5 +1,4 @@
 @extends('articles.layout')
-
 @section('content')
 
 <div class="row">

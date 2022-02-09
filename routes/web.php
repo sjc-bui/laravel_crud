@@ -20,4 +20,4 @@ Route::get('/', function () {
 });
 
 // articles
-Route::resource('/articles', ArticleController::class);
+Route::resource('/articles', ArticleController::class)->middleware('ensureTopicValid');
